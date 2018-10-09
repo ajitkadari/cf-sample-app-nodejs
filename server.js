@@ -1,3 +1,4 @@
+var newrelic = require( 'newrelic')
 var express = require( 'express')
 var app = express()
 var cf_app = require( './app/vcap_application')
